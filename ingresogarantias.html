@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/stylessphp.css">
+    <title>Garantias</title>
+</head>
+<body>
+    <h1>INGRESO DE GARANTIAS</h1>
+    <div class="container">
+        <h2>Ingresa tus datos</h2>
+        <form action="PHP/ingreso_garantias.php" method="post">
+
+
+            <label for="nombre_cliente">NOMBRE DEL CLIENTE:</label>
+            <input type="text" name="nombre_cliente" required>
+
+            <label for="apellido">APELLIDO</label>
+            <input type="text" name="apellido" required>
+
+            <label for="cedula">CEDULA</label>
+            <input type="text" name="cedula" required>
+
+            <label for="telefono">TELEFONO</label>
+            <input type="text" name="telefono" required>
+
+            <label for="numero_factura">NUMERO DE FACTURA</label>
+            <input type="text" name="numero_factura" required>
+
+            <label for="fecha_compra">FECHA DE COMPRA</label>
+            <input type="text" name="fecha_compra" required>
+
+            <label for="fecha_finalizacion">FECHA DE FINALIZACION</label>
+            <input type="text" name="fecha_finalizacion" required>
+            
+
+
+            <button type="submit">GUARDAR GARANTIA</button>
+        </form>
+    </div>
+</body>
+</html>

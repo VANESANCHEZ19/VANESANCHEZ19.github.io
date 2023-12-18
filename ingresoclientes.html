@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/stylessphp.css">
+    <title>Ingreso de Clientes</title>
+</head>
+<body>
+    <h1>DATOS DEL CLIENTE</h1>
+    <div class="container">
+        <h2>Ingresa tus datos</h2>
+        <form action="PHP/ingreso_cliente.php" method="post">
+
+            <label for="nombre">NOMBRE</label>
+            <input type="text" name="nombre" required>
+
+            <label for="apellido">APELLIDO</label>
+            <input type="text" name="apellido" required>
+
+            <label for="email">CORREO ELECTRONICO</label>
+            <input type="text" name="email" required>
+
+            <label for="telefono">TELEFONO</label>
+            <input type="text" name="telefono" required>
+
+            <button type="submit">GUARDAR CLIENTE</button>
+        </form>
+    </div>
+</body>
+</html>

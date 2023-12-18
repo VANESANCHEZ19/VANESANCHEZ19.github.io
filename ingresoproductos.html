@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/stylessphp.css">
+    <title>Ingreso de productos</title>
+</head>
+<body>
+    <h1>INGRESO DE PRODUCTOS</h1>
+    <div class="container">
+        <h2>Ingresa el producto</h2>
+        <form action="PHP/ingreso_productos.php" method="post">
+
+            <label for="nombre">NOMBRE DEL PRODUCTO</label>
+            <input type="text" name="nombre" required>
+
+            <label for="precio">PRECIO DEL PRODUCTO</label>
+            <input type="text" name="precio" required>
+
+            <label for="cantidad">CANTIDAD DEL PRODUCTO</label>
+            <input type="text" name="cantidad" required>
+
+            <label for="descripcion">DESCRIPCION DEL PRODUCTO</label>
+            <input type="text" name="descripcion" required>
+
+            <button type="submit">GUARDAR PRODUCTO</button>
+        </form>
+    </div>
+</body>
+</html>

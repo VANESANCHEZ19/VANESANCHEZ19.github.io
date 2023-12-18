@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/stylessphp.css">
+    <title>Prestamos de Equipos</title>
+</head>
+<body>
+    <h1>PRESTAMO DE EQUIPOS</h1>
+    <div class="container">
+        <h2>Ingresa tus datos</h2>
+        <form action="PHP/ingreso_prestamos_equipos.php" method="post">
+            
+            <label for="nombre_equipo">NOMBRE DEL EQUIPO</label>
+            <input type="text" name="nombre" required>
+
+            <label for="fecha_alquiler">FECHA DE ALQUILER</label>
+            <input type="text" name="fecha_alquiler" required>
+
+            <label for="fecha_devolucion">FECHA DE DEVOLUCION</label>
+            <input type="text" name="fecha_devolucion" required>
+
+            <button type="submit">GUARDAR PRESTAMO</button>
+        </form>
+    </div>
+</body>
+</html>

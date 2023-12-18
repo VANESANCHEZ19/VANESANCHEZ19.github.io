@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/stylessphp.css">
+    <title>SOPORTE TECNICO</title>
+</head>
+<body>
+    <h1>DATOS DE SOPORTE TECNICO</h1>
+    <div class="container">
+        <h2>Ingresa tus datos</h2>
+        <form action="PHP/ingreso_soporte_tecnico.php" method="post">
+
+            <label for="nombre">NOMBRE</label>
+            <input type="text" name="nombre" required>
+
+            <label for="email">CORREO ELECTRONICO</label>
+            <input type="text" name="email" required>
+
+            <label for="telefono">TELEFONO</label>
+            <input type="text" name="telefono" required>
+
+            <label for="mensaje">MENSAJE</label>
+            <input type="text" name="mensaje" required>
+
+
+
+            <button type="submit">GUARDAR SOPORTE</button>
+        </form>
+    </div>
+</body>
+</html>
